@@ -1,0 +1,16 @@
+.test {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: left;
+    grid-gap: 30px;
+}
+
+.test li {
+    list-style-type: none;
+
+}
+
+.test li a {
+    text-decoration: none;
+    font-weight: 800px;
+}
