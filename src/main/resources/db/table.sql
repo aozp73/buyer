@@ -8,7 +8,7 @@ create table product_tb(
 
 create table user_tb(
     id int auto_increment primary key,
-    username varchar not null unique,
+    username varchar not null,
     password varchar not null,
     email varchar not null,
     created_at timestamp

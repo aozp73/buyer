@@ -33,7 +33,7 @@ public interface UserRepository {
 
     public User findById(int id);
 
-    public int updateById(int id, String password, String email);
+    public int updateById(int id, String password);
 
     public int deleteById(int id);
 
