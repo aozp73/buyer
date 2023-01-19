@@ -17,7 +17,7 @@ public class Product {
 
     // ${product.createdAt} 은 getreatedAt()이 호출
     // el표현식에서 CreatedAtString가 호출 됨
-    public String getCreatedAtString() {
+    public String getCreatedAtToString() {
         return DataUtil.format(createdAt);
     }
 }
