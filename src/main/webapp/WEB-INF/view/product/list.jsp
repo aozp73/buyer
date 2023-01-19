@@ -2,11 +2,9 @@
 
     <%@ include file="../layout/header.jsp" %>
 
-        <h1>상품 목록페이지</h1>
-        <hr>
-
+        <h1>상품목록 페이지</h1>
+        <hr />
         <table border="1">
-
             <tr>
                 <th>번호</th>
                 <th>상품명</th>
@@ -15,15 +13,13 @@
                 <th>등록일</th>
             </tr>
 
-            <c:forEach items="${productList}" var="productList">
-                <tr>
-                    <td>${productList.id}</td>
-                    <td><a href="/product/${productList.id}">${productList.name}</a> </td>
-                    <td>${productList.price}</td>
-                    <td>${productList.qty}</td>
-                    <td>${productList.createdAt}</td>
-                </tr>
-            </c:forEach>
+            <tr>
+                <td>1</td>
+                <td><a href="/product/1">바나나</a></td>
+                <td>1000원</td>
+                <td>500개</td>
+                <td>2023-01-18</td>
+            </tr>
 
         </table>
 

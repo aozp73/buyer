@@ -1,4 +1,4 @@
-package shop.mtcoding.buyer.contorller;
+package shop.mtcoding.buyer.controller;
 
 import org.springframework.stereotype.Controller;
 
