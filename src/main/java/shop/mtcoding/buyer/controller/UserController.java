@@ -97,4 +97,13 @@ public class UserController {
             return "user/joinForm";
         }
     }
+
+    @GetMapping("/logout")
+    public String logout() {
+        // JSESSIONID 손대는 것 x
+        // 우리 SESSION에 있는 것 손 대기
+        session.invalidate();
+
+        return "redirect:/";
+    }
 }
