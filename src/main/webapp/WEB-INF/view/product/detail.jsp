@@ -22,5 +22,14 @@
             </tr>
 
         </table>
+        <form action="/purchase/insert" method="post">
+            <input type="hidden" name="productId" value="${product.id}">
+            <select name="count">
+                <c:forEach begin="1" end="${product.qty}" var="num">
+                    <option value="${num}">${num}</option>
+                </c:forEach>
+            </select>
+            <button type="submit">구매하기</button>
+        </form>
 
         <%@ include file="../layout/footer.jsp" %>
