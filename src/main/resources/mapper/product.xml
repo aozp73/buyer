@@ -29,4 +29,9 @@
       where id = #{id}
    </update>
 
+
+    <sql id="findByUserId">
+          
+    </sql>
+
 </mapper>

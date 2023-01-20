@@ -35,7 +35,7 @@
                                 <a href="/">홈</a>
                             </li>
                             <li>
-                                <a href="purchase">구매목록</a>
+                                <a href="/purchase">구매목록</a>
                             </li>
                             <li>
                                 <a href="/logout">로그아웃</a>
